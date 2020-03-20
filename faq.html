@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/faq.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+    <title>FAQ</title>
+</head>
+
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="logohover"><img src="./img/exo-maker_logo 1.png" alt="Logo" id="logo"></a>
+            <a href="#home" class="active">Home</a>
+            <a href="#produto">Produto</a>
+            <a href="#sobe">Sobre Nós</a>
+            <a href="./contato.html">Contato</a>
+            <form class="pesquisa">
+                <input type="text" placeholder="Pesquisar.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+            <div class="media">
+                <a href="#" id="login"><img src="./img/do-utilizador.svg" alt="login" class="login"></a>
+                <a href="#" id="face"><img src="./img/facebook.png" alt="logo facebook" class="face"></a>
+                <a href="#" id="insta"><img src="./img/instagram.png" alt="logo instagram" class="insta"></a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header color" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link text-color collapsed" data-toggle="collapse"
+                            data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Opções de Pagamento
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        Cartão de crédito: Aceitamos as seguintes bandeiras: Visa, Mastercard, American Express, Elo,
+                        Diners
+                        Club, Hipercard e Hiper. As compras realizadas através do cartão de crédito poderão ser
+                        parceladas
+                        em até 10x sem juros, respeitando o valor mínimo das parcelas de R$100,00.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header color" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed text-color" data-toggle="collapse"
+                            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Política de Troca
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        PRODUTOS SERÃO ACEITOS SOMENTE SE ACOMPANHADOS DA NOTA FISCAL, DENTRO DAS SEGUINTES CONDIÇÕES:
+                        <br>
+                        •   Etiquetas e lacres intactos;
+                        <br>
+                        •   Embalagem original não danificada ou em caixa de papelão lisa;
+                        <br>
+                        •   Sem odores ou manchas;
+                        <br>
+                        •   Sem alterações feitas pelo cliente;
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header color" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed text-color" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Política de Devolução
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        DESISTÊNCIA POR ARREPENDIMENTO: 10 dias corridos após o recebimento do pedido.
+                        Produtos com defeito: 90 dias corridos após o recebimento do pedido.
+                        PRODUTOS SERÃO ACEITOS SOMENTE SE ACOMPANHADOS DA NOTA FISCAL, DENTRO DAS SEGUINTES CONDIÇÕES:
+                        •   Etiquetas e lacres intactos;
+                        <br>
+                        •   Embalagem original não danificada ou em caixa de papelão lisa;
+                        <br>
+                        •   Sem odores ou manchas;
+                        <br>
+                        •   Sem alterações feitas pelo cliente
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header color" id="headingTwo">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed text-color" data-toggle="collapse" data-target="#collapseTwo"
+                        aria-expanded="false" aria-controls="collapseTwo">
+                        Política de Retirada
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                    Seu pedido ficará disponível para retirada durante 7 (sete) dias corridos após a data agendada de
+                    retirada.
+                    Retirada de pedido: O número do pedido e o documento de identidade original com foto.
+                    <br>
+                    Retirada por terceiros: O número do pedido, cópia do documento de identidade do titular da compra, o
+                    documento de identidade original com foto do representante, termo de autorização de retirada
+                    assinado
+                    pelo titular da compra.
+                    <br>
+                    Entrega domiciliar: Nossos prazos de entrega são estimados por nossos parceiros logísticos,
+                    alterando de
+                    acordo com a localidade.
+                    Importante: Lembramos que o período estipulado para sua entrega só começa a contar após a
+                    confirmação do
+                    pagamento. Você receberá um e-mail e poderá acompanhar cada estágio até o recebimento.
+                </div>
+            </div>
+
+    </main>
+
+    <footer>
+        <div>
+            <a href="#home"><img src="./img/exo-maker-reduzida_Prancheta 1.png" alt="logo" id="logofoot"></a>
+            <div>
+                <ul>
+                    <li><a href="#">Perguntas frequentes</a></li>
+                    <li><a href="./pp.html">Politica de Privacidade</a></li>
+                </ul>
+                <a href="#"><img src="./img/facebook.png" alt="logo facebook" class="face"></a>
+                <a href="#"><img src="./img/instagram.png" alt="logo instagram" class="insta"></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./js/menu.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

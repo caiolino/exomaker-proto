@@ -1,0 +1,45 @@
+footer{
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0 3px 5px #00000015 ;
+}
+
+footer > div{
+   width: 70%;
+   margin: 0 auto;
+   height: 125px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+footer > div >div{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer > div >div > a{
+    margin: 15px;
+}
+
+footer > div >div >ul >li{
+    margin: 15px;
+}
+
+footer > div >div >ul >li > a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logofoot{
+    width: 75px;
+    height: auto;
+} 
+
+
+
+@media screen and (max-width: 922px) {
+    footer > div{
+        width: 100%;
+     }
+  }

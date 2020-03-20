@@ -1,0 +1,102 @@
+main{
+    width: 70%;
+    margin: 50px auto;
+    
+}
+
+.fonte{
+    font-family: 'Cabin', 'Roboto' ;
+    font-size: 15px;
+    font-weight: bold;
+}
+.map-container-6{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container-6 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.background{
+    background-color: #ebebeb;
+    font-family: 'Cabin', 'Roboto' ;
+}
+.flaticon{
+    margin: 10px;
+}
+.titulocard{
+    margin-bottom: 10px;
+}
+
+.user{
+    margin-right: 6px;
+}
+
+.iconscard{
+    background-color:#697AFF;
+    box-shadow: 5px 6px 4px #00000015;
+    height: 64px;
+    width: 64px;
+    border-radius: 100px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+.iconscard:hover{
+    background-color:#353E80;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+.mapa{
+    margin-right: 2px;
+}
+.box{
+    margin-left: 2px;
+}
+.btn-color{
+    background-color: #697AFF;
+    border-color: #697AFF;
+}
+.btn-color:hover{
+    background-color: #353E80;
+    border-color: #353E80 ;
+}
+.masthead {
+    margin-top: -15px;
+    height: 300px;
+    background-image: url('https://cdn.pixabay.com/photo/2015/02/25/16/43/encounter-649044_960_720.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+  }
+  .cont{
+      font-size: 65px;
+      color: white;
+      text-shadow: 2px 2px #00000015;
+  }
+  .overlay-div{
+    height:300px;
+    width: 70%;
+    position:absolute;
+    background-color: #353E80;
+    opacity:.7;
+ }
+
+ @media screen and (max-width: 1351px){
+    main{
+        width: 100%;
+    }
+    .overlay-div{
+        width: 100%;
+
+    }
+}
