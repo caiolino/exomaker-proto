@@ -11,31 +11,36 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/contato.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <script src="https://kit.fontawesome.com/635723e46f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <title>Contato</title>
 </head>
 
-<header>
-    <div class="topnav" id="myTopnav">
-        <a href="#home" class="logohover"><img src="./img/exo-maker_logo 1.png" alt="Logo" id="logo"></a>
-        <a href="#home" class="active">Home</a>
+<nav class="topnav" id="myTopnav">
+    <div class="logo">
+        <img src="./img/exo-maker_logo 1.png" alt="Logotipo">
+    </div>
+    <ul class="topMenu">
+        <a href="#home">Home</a>
         <a href="#produto">Produto</a>
         <a href="#sobe">Sobre Nós</a>
         <a href="#contato">Contato</a>
-        <form class="pesquisa">
-            <input type="text" placeholder="Pesquisar.." name="search">
-            <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
-        <div class="media">
-            <a href="#" id="login"><img src="./img/do-utilizador.svg" alt="login" class="login"></a>
-            <a href="#" id="face"><img src="./img/facebook.png" alt="logo facebook" class="face"></a>
-            <a href="#" id="insta"><img src="./img/instagram.png" alt="logo instagram" class="insta"></a>
-        </div>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
+    </ul>
+    <div id="divBusca">
+        <input type="text" id="txtBusca" placeholder="Buscar..." />
+        <button id="btnBusca"><i class="fas fa-search"></i></button>
     </div>
+    <div id="iconLogin">
+        <a href=""><i class="fas fa-user"> Entar</i></a>
+    </div>
+    <div class="hamburger">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+</nav>
 </header>
 
 <main>

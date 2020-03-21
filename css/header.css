@@ -20,7 +20,7 @@ header{
     height: auto;
     margin: -45px 0 -45px 0;
 }
-  
+
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
@@ -32,7 +32,7 @@ header{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
   }
-  
+
   /* Change the color of links on hover */
 
 
@@ -43,7 +43,7 @@ header{
   .face{
     width: 20px;
     height: auto;
-    
+
 }
 
 .insta{
@@ -79,7 +79,7 @@ form.pesquisa input[type=text] {
     color: white;
     font-size: 17px;
     border: 1px solid grey;
-    border-left: none; 
+    border-left: none;
     cursor: pointer;
     border-radius: 15px;
   }
@@ -120,7 +120,7 @@ form.pesquisa input[type=text] {
         display: none;
     }
   }
-  
+
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
   @media screen and (max-width: 922px) {
     .topnav.responsive {

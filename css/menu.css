@@ -1,0 +1,195 @@
+.logo > img{
+    width: 150px;
+    height: auto;
+    margin: -40px 0 -40px 0 ;
+}
+
+header{
+    background-color: rgb(243, 243, 243);
+    padding: 10px;
+    box-shadow: 0 3px 5px #00000015 ;
+}
+
+.topnav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.topnav a:hover{
+    color: #ffffff;
+    background-color: #353E80;
+
+}
+
+.topnav{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topnav > ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.topnav > ul > li{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#divBusca{
+    border:solid 0.5px rgb(121, 124, 124);
+    background-color: #ffffff;
+    border-radius:20px;
+    width:42%;
+    height:40px;
+    display: flex;
+  }
+
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px; 
+    font-size:18px;
+    border:none;
+    height:40px;
+    width:90%;
+  }
+
+  #btnBusca{
+    border:none;
+    float:left;
+    height:40px;
+    border-radius:0 50px 50px 0;
+    width: 55px;
+    font-weight:bold;
+    background:#353E80;
+  }
+
+  .fa-search{
+      color:rgb(243, 243, 243) ;
+  }
+
+  .hamburger{
+    display: none;
+    cursor: pointer;
+  }
+
+
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #353E80;
+    margin: 6px 0;
+    border-radius: 50px;
+    transition: 0.4s;
+  }
+
+  .transf .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .transf .bar2 {opacity: 0;}
+  
+  .transf .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+
+@keyframes apareceMenu{
+    from{
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@media screen and (max-width: 1350px){
+    .topnav{
+        width: 100%;
+    }   
+}
+
+@media screen and (max-width: 768px){
+    .topnav a{
+        display: none;
+    }
+    #divBusca{
+        display: none;
+    }
+    .hamburger{
+        display: inline-block;
+    }
+}  
+
+@media screen and (max-width: 768px){
+    .topnav.responsive {
+        animation: apareceMenu .3s;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+
+    }
+    .responsive a{
+        display: block;
+        margin: 15px;
+    }
+    .responsive ul{
+        display: block;
+        width: 100%;
+    }
+
+    .responsive ul>li{
+        border-bottom:solid 0.5px rgb(121, 124, 124);
+
+    }
+
+    .responsive #divBusca{
+        display: block;
+        width: 100%;
+        height: auto; 
+        border-radius: 0;
+    }
+
+    .responsive .hamburger{
+        position: absolute;
+        top: 20px;
+        right: 5px;
+    }
+
+    .responsive #btnBusca{
+        width: 100%;
+        border-radius:  0
+
+    }
+
+    .responsive #txtBusca{
+        width: 100%;
+    }
+
+    .responsive #iconLogin{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .responsive a{
+        padding: 15px 40px 15px 40px;
+    }
+}
